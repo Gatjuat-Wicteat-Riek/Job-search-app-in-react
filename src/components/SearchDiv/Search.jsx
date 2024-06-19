@@ -56,6 +56,20 @@ const Search = () => {
           </button>
         </div>
       </form>
+      <div className=" secDiv flex items-center gap-10">
+        <div className="singleSearch flex items-center gap-2">
+          <label htmlFor="relevance" className="text-[#808080] font-semibold">
+            Sort By:
+          </label>
+          <select
+            name=""
+            id="relevance"
+            className="bg-white rounded-[3px] px-4 py-1 "
+          >
+            <option value="">Relevance</option>
+          </select>
+        </div>
+      </div>
     </div>
   );
 };
